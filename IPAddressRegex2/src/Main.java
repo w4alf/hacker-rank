@@ -59,8 +59,16 @@ import java.util.Scanner;
     class MyRegex {
         String pattern;
         MyRegex() {
-            // String zeroTo255 ="[0-9]{2,3}";
-            // String zeroTo255 ="[0-9]{2,3}";
+            // String zeroTo255 ="[0-9]{2,3}"; my very first test :) learning
+
+            // Explanation of the Regex used. I ended up Google Foo'ing to finish this. But great exercise to learn regex
+            // \\d{1,2} catches any one or two digit number - catches 0-99
+
+            // (0|1)\\d{2} catches any three digit number starting with 0 or 1. catches 000-199
+
+            // 2[0-4]\\d catches numbers between 200 and 249.
+
+            // 25[0-5] catches numbers between 250 and 255.
 
             String zeroTo255 ="(\\d{1,2}|(0|1)\\d{2}|2[0-4]\\d|25[0-5])";
 
