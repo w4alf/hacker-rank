@@ -27,13 +27,7 @@ public class Main {
         System.out.println(A.substring(0,1).toUpperCase()+A.substring(1,A.length())+' '+B.substring(0,1).toUpperCase()+B.substring(1,B.length()));
 
 
-
-
         //A.substring(2,A.length()) ;
-
-
-
-
 
     }
 }
